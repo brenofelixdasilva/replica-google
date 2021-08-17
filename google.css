@@ -1,0 +1,94 @@
+*{
+    font-family: "Arial";
+    color: #3c4043;
+    font-size: 13px;
+}
+
+html, body, #body {
+    height: 100%;
+}
+
+body {
+    background:  #ffffff;
+    margin: 0;
+}
+
+#body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header{
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding: 0px 0px 0px 15px;
+    margin: 0px 15px 0px 0px;
+}
+
+#gmail{
+    padding: 0px 0px 0px 15px;
+}
+
+#images{
+    padding: 0px 0px 0px 15px;
+}
+
+#content{
+    width: 100%;
+    height: calc(100% - (48px + 94px));
+
+
+}
+
+#footer{
+    height: 94px;
+    width: 100%;
+    background: #f2f2f2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+#linhaCima{
+    width: 100%;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+    border-bottom: 1px solid #dadce0;
+    box-sizing: border-box;
+}
+
+#linhaBaixo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 46px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#linhaBaixo ul{
+    display: flex;
+    color: #70757a;
+    font-family: "Arial";
+    font-size: 14px;
+}
+
+#linhaBaixo li{
+    padding: 15px;
+    color: #70757a;
+    font-family: "Arial";
+    font-size: 14px;
+}
