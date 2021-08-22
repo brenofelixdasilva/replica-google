@@ -38,19 +38,22 @@ body {
     padding: 0px 0px 0px 15px;
 }
 
-#imagem-de-perfil{
+#imagemdeperfil{
     border-radius: 50%;
 }
 
 #content{
     width: 100%;
     height: calc(100% - (48px + 94px));
-
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #logo{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -59,7 +62,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    object-position: 50% 100%;
+    padding: 0px 6px;
+    margin: 11px 4px;
+    color: #3c4043;
+}
+
+#abaixoBarradois{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 6px;
+    margin: 11px 4px;
+    color: #3c4043;
 }
 
 #footer{
