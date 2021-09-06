@@ -23,7 +23,7 @@
         </div>
         <div id="busca">
             <input type="text" id="caixa"/> 
-            <button id="pesquisar">Pesquisar</button>
+            <button id="botao">Pesquisar</button>
             <div id="result"></div>
         </div>
 
@@ -66,10 +66,13 @@ const resultados = document.getElementById("result");
 
 let contador = 0;
 
-pesquisar.addEventListener("click",function(){
-    const fraseDigitada = caixa.value;
-    result.innetHTML ="Você pesquisou por: " + fraseDigitada + "!";
-    });
+botao.addEventListener("click", function(){
+  const fraseDigitada = caixa.value;
+  result.innerHTML = "Você pesquisou por: " + fraseDigitada + "!";
+});
+
+alert ("Esse site é uma réplica de estudo da página de pesquisa do Google")
+
     </script>
 </body>
 </html>
